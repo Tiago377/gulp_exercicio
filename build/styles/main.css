@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  width: 500px;
+  height: 100vh;
+}
+form h1 {
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+form label {
+  margin-bottom: 1rem;
+}
+form input {
+  padding: 5px;
+  margin-bottom: 1rem;
+}
+form button {
+  background-color: blue;
+  color: #fff;
+  width: 100px;
+  padding: 5px 10px;
+  margin: 0 auto;
+  border: none;
+}
+form button:hover {
+  background-color: rgb(122, 122, 231);
+}
